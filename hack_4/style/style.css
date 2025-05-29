@@ -1,0 +1,150 @@
+body{
+    position: static;
+    background-color: white;
+    margin: 0;
+}
+
+#contenedor{ 
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 5%;
+    height: 7px;
+    margin-top: 70px;
+    background-color: black;
+    top: 100px;
+}
+
+#contenedor2{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+}
+
+#firsth3{
+    font-family: "Ruda";
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+
+h1{
+    font-family: "Ruda";
+    font-size: 95px;
+    color: #B88940;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: 1800;
+    margin: 0; 
+}
+
+h2{
+    font-family: "Ruda";
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin: 0;
+}
+
+h6{
+    font-family: "Catamaran";
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: 10px;
+}
+
+#big_cont{
+    position: relative;
+    margin-top: 100px;
+}
+
+#contenedor3{
+    display: flex;
+    gap: 10px;
+    justify-content: center;  
+}
+
+img{
+    width: 20%;
+    height: auto;
+    z-index: 100;
+}
+
+#contenedor4{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;  
+    align-items: center;  
+}
+.orange_deco{
+    position: absolute;
+    width: 96%;
+    height: 27px;
+    background-color: #FFBD59;
+    z-index: -1;
+    top: 20%;
+}
+
+.orange_deco:nth-child(2) {
+  top: 35%; 
+}
+
+.orange_deco:nth-child(3) {
+  top: 50%; 
+}
+
+.orange_deco:nth-child(4) {
+  top: 65%; 
+}
+
+#contenedor5{
+    display: flex;
+    gap: 140px;
+    justify-content: center;
+}
+
+.precios{
+    font-family: "Catamaran";
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+#scndh3{
+    font-family: "Open Sans";
+    font-weight: 800;
+    color: #B88940;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 7px;
+    margin-bottom: 0;
+}
+
+h5 {
+    font-family: "Catamaran";
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0
+}

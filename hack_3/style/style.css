@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+    margin: 0; /*!*/
+}
+
+.primero{
+    display: flex;
+    background-color: #93B5C9;
+    width: 100%;
+    height: 150px;
+}
+
+.segundo{
+    display: flex;
+    background-color: #AB2849;
+    width: 100%;
+    height: 300px;
+    border-bottom: 10px solid white;
+}
+
+.tercero{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center; 
+    background-color: white;
+}
+
+.full{
+    display: flex;
+    background-color: #AB2849;
+    width: 75%;
+    height: 100px;
+}
+
+.double{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 75%;
+}
+
+.half{
+    display: flex;
+    background-color: #AB2849;
+    width: 50%;
+    height: 100px;
+}
+
+.ultimo{
+    display: flex;
+    background-color: #AB2849;
+    width: 100%;
+    height: 100px;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+}
